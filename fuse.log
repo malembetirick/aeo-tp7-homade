@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/m1/malembeti/Documents/Nexys3V6/HCU_isim_beh.exe -prj /home/m1/malembeti/Documents/Nexys3V6/HCU_beh.prj work.HCU 
+ISim M.81d (signature 0x9ca8bed6)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/m1/malembeti/Documents/Nexys3V6/returnstack.vhd" into library work
+Parsing VHDL file "/home/m1/malembeti/Documents/Nexys3V6/homade_opcodes.vhd" into library work
+Parsing VHDL file "/home/m1/malembeti/Documents/Nexys3V6/Hcontrolunit.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 74140 KB
+Fuse CPU Usage: 80 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_signed from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Compiling package opcodes
+Compiling architecture behavioral of entity rstack [rstack_default]
+Compiling architecture behavioral of entity hcu
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable /home/m1/malembeti/Documents/Nexys3V6/HCU_isim_beh.exe
+Fuse Memory Usage: 637356 KB
+Fuse CPU Usage: 110 ms
+GCC CPU Usage: 170 ms

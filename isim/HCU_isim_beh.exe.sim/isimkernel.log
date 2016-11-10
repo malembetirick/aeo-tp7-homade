@@ -1,0 +1,10 @@
+Command line:
+   HCU_isim_beh.exe
+     -simmode  gui
+     -simrunnum  2
+     -socket  46850
+
+Tue Nov  8 17:40:48 2016
+
+
+ Elaboration Time: 0.01 sec

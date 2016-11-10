@@ -1,0 +1,3 @@
+vhdl work "returnstack.vhd"
+vhdl work "homade_opcodes.vhd"
+vhdl work "Hcontrolunit.vhd"
